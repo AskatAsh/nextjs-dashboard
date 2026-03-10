@@ -1,7 +1,5 @@
 import DashboardSkeleton from "../../ui/skeletons";
 
-const Loading = () => {
+export default function Loading() {
   return <DashboardSkeleton />;
-};
-
-export default Loading;
+}
